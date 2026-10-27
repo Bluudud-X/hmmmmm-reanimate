@@ -1,3 +1,6 @@
+-- Uhhhhhh UI Studio customized full-script export
+-- Intro title: Uhhhhhh Reanimate V1.0.9 BETA
+-- Preview background: #080a10 | Accent: #ff0000
 --[[
  ...    :::::        ::        ::        ::        ::        ::        
  ;;     ;;;;;;       ;;;       ;;;       ;;;       ;;;       ;;;       
@@ -751,54 +754,25 @@ else
 	UISound.Music.Volume = 1
 	UISound.Music.TimePosition = 0
 	local scrolltexts = {
-		"stevetherealone presents a script                                 ",
-		"hi guys welcome to my game                                        ",
-		"holy shit where did our friends go?               *gets vc warned*",
-		"greetings to qpmbsjbvt for getting me into reanimation            ",
-		"those who know the place called ajman, dubai, uae                 ",
-		":3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 >:3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3",
-		"quick intro        with quick scrolltext         and you will miss the punchline              punchline                did you get the punchline?  ",
-		"meeeooowwwwwwwwww >:3                                          maw",
-		"wwwwwwwwwwwwwwwwwww                         grass                 ",
-		"erika's the towers                            sfoth iv update when",
-		"i will leak all ur script i will leak all ur script i will leak al",
-		"fflags are dead lol                                               ",
-		"imagine being called a dummy                                      ",
-		"hi                          ...                oxide more like sui",
-		"even if I mope, nothing good will happen! if i worked hard today, today will be perfecto!",
-		"hi                          ...                                   ",
-		"who the fuck even reads this??                     hi guys        ",
-		"          trust me the ui looks good             here it comes    ",
-		"dying is scary, but living is difficult                               dying: gifted scary; living: pure difficult",
-		"but i halter my forethought, i keep on running like a chicken with his dih",
-		"kaiya sounds like a perfect name for a genshin impact character   ",
-		"this is an intro lol                        ",
-		"greetings to myworld for helping with -net less                   ",
-		"Omega-Skidded Immortality Lord Diddy Blud On The Calculator       ",
-		"all UI music credits to dubmood, zabutom, ogge, 4mat and hoster   ",
-		"heres the triforce                and heres my name                              ",
-		"skids are now taking credit of this entire script, meaning its so good           ",
-		"skids, be alert, go to weao.xyz for your roblox hacks!            ",
-		"                                             ok.                         ",
-		"hey steve why is this better than genesis fe?                     ",
-		"RCDless is the future of roblox exploiting                        ",
+		"just work goddamnit",
 	}
 	scrolltexts = scrolltexts[math.random(1, #scrolltexts)]
-	local fade = TweenService:Create(UIMainFrame, TweenInfo.new(5), {BackgroundTransparency = 0.5})
+	UIMainFrame.BackgroundColor3 = Color3.fromHex("080a10")
+		local fade = TweenService:Create(UIMainFrame, TweenInfo.new(5), {BackgroundTransparency = 0.5})
 	fade:Play()
 	local scrolltext = Util.MakeText(scrolltexts)
 	scrolltext.Parent = UIMainFrame
 	scrolltext.ZIndex = 0
 	scrolltext.AnchorPoint = Vector2.new(0, 0.5)
 	scrolltext.Position = UDim2.new(1.5, 0, 0.5, 0)
-	Util.SetTextColor(scrolltext, Color3.new(1, 1, 1), 0.6)
+	Util.SetTextColor(scrolltext, Color3.fromHex("ff0000"), 0.6)
 	TweenService:Create(scrolltext, TweenInfo.new(5.256, Enum.EasingStyle.Linear), {
 		Position = UDim2.new(1, 0, 0.5, 0),
 		AnchorPoint = Vector2.new(1, 0.5),
 	}):Play()
 	local scrolltextratio = scrolltext.Size.X.Offset / scrolltext.Size.Y.Offset
-	local Triforce1 = Util.MakeTriforce(3, Color3.new(1, 0.7, 0), 4)
-	local Triforce2 = Util.MakeTriforce(3, Color3.new(0.8, 0.4, 0), 4)
+	local Triforce1 = Util.MakeTriforce(3, Color3.fromHex("ffb300"), 4)
+	local Triforce2 = Util.MakeTriforce(3, Color3.fromHex("cc6600"), 4)
 	Triforce1.ZIndex = 2
 	Triforce2.ZIndex = 1
 	Triforce1.Parent = UIMainFrame
@@ -814,7 +788,7 @@ else
 	stevetherealone.TextColor3 = Color3.new(1, 1, 1)
 	stevetherealone.BackgroundColor3 = Color3.new(0, 0, 0)
 	stevetherealone.BackgroundTransparency = 0
-	stevetherealone.BorderColor3 = Color3.new(1, 1, 1)
+	stevetherealone.BorderColor3 = Color3.fromHex("ff0000")
 	stevetherealone.BorderSizePixel = 8
 	stevetherealone.AnchorPoint = Vector2.new(0.5, 0.5)
 	stevetherealone.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -870,7 +844,7 @@ else
 			stevetherealone.Visible = true
 			stevetherealone.Size = UDim2.fromOffset(z, z)
 		elseif t < 4.756 then
-			stevetherealone.Text = "STEVE\nTHERE\nALONE"
+			stevetherealone.Text = "BLUUESTDUDD\nPLEASE WORK\nON THE FORK"
 			stevetherealone.Visible = true
 			stevetherealone.Size = UDim2.fromOffset(100, 100)
 		else
