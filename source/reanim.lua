@@ -1169,7 +1169,7 @@ local UIMainWindow, WindowContent do
 	TopBarText.TextColor3 = Color3.new(1, 1, 1)
 	TopBarText.TextSize = 20
 	TopBarText.TextXAlignment = Enum.TextXAlignment.Left
-	TopBarText.Text = "Uhhhhhh Reanimate | v" .. UhhhhhhVersion
+	TopBarText.Text = "Hmmmmm Reanimate | v" .. UhhhhhhVersion
 	TopBarText.RichText = true
 	RegisterTextLabel(TopBarText)
 	Util.ForceTextSize(TopBarText)
@@ -1572,12 +1572,12 @@ do -- homepage
 	text.Position = UDim2.new(0.5, 0, 1, -25)
 	text.ZIndex = 3
 	text.Parent = CracktroFrame
-	local text0 = Util.MakeText("Discord: discord.gg/NASNUKRBVM")
+	local text0 = Util.MakeText("life is roblox")
 	text0.AnchorPoint = Vector2.new(0.5, 1)
 	text0.Position = UDim2.new(0.5, 0, 1, -17)
 	text0.ZIndex = 3
 	text0.Parent = CracktroFrame
-	local text1 = Util.MakeText("Made by STEVETHEREALONE :" .. (math.random() < 0.333 and "3" or (math.random() < 0.5 and "D" or "P")))
+	local text1 = Util.MakeText("Made by Bluudud :p" .. (math.random() < 0.333 and "3" or (math.random() < 0.5 and "D" or "P")))
 	text1.AnchorPoint = Vector2.new(0.5, 1)
 	text1.Position = UDim2.new(0.5, 0, 1, -17)
 	text1.ZIndex = 3
@@ -1597,13 +1597,13 @@ do -- homepage
 		"A great " .. os.date("%A") .. " today, eh?",
 		"Hello, " .. Player.Name .. ".",
 		"What makes you play at " .. os.date("%I %p") .. "?",
-		"You are going to love Uhhhhhh, I just know it.",
+		"You are going to love Hmmmmm, I just know it.",
 		"This script is very \"verbose\".",
 		"Written mostly on a mobile phone.",
 		"I am pretty new in this community! :D",
 		"\"Dreams come true!\"",
 		"Idea originated from a dream.",
-		"If you love this program, join my Discord!",
+		"If you love this program, DON'T join my Discord!",
 		"boredgal was here..",
 		"gugu gaga ultimate",
 		"Kleiner me to start!",
