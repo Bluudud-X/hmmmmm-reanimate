@@ -1,15 +1,15 @@
-# <p align="center">STEVETHEREALONE (@steve_internal)'s Universal Hierarchical 6 Reanimator</p>
-<p align="center">A really cool, optimised animation program with demo scenes! Idea originated from a dream.</p>
+# <p align="center">BLUUDUDS (@bluudud_x)'s Universal Hierarchical 6 Reanimator</p>
+<p align="center">a fork of uhhhhhh reanimate i guess</p>
 <p align="center">
 	<img src="./images/Showcase.gif" alt="drawing" width="45%"/>
 	<img src="./images/Showcase2.gif" alt="drawing" width="45%"/>
 </p>
 
-This is the official repository for Uhhhhhh.
+This is the official repository for hmmmmm.
 All code is stored in this repository.
 Feel free to use these as your reference.
 
-Join the [DISCORD](https://discord.gg/NASNUKRBVM) of all my programming shenanigans! :D
+Join the [DISCORD](not made yet) of all my programming shenanigans! :D
 
 **NOTICE:** This is still in development, so things are subject to change and stuff are expected to be missing.
 
@@ -26,10 +26,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/STEVE-916-create/Uhhh
 local a,b,c,g="/STEVE-916-create/Uhhhhhh/","/source/reanim.lua",".github","https://"local d=request({Url=`{g}api{c}.com/repos{a}contents{b}`,Headers={Accept=`application/vnd{c}.VERSION.raw`}})if d.StatusCode~=200 then d.Body=game:HttpGet(`{g}raw{c}usercontent.com{a}main{b}`)end local e,f=loadstring(d.Body)if not e then warn(f)else e()end
 ```
 
-## Features:
+## Features(probably not going to change much from the original):
 1. ~Probably the most stable hatdrop~ (roblox patched permadeath which makes this useless 3:)
 
-   Uhhhhhh's hatdrop supports most (if not all) hat rigs!
+   Hmmmmm's hatdrop supports most (if not all) hat rigs!
 
    <img src="./images/ILDoesKemusan.gif" alt="drawing" width="350"/>
 
